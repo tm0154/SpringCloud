@@ -7,12 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="initialization-eureka" />
+        <module name="initialization-zuul" />
+        <module name="server-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="initialization-zuu" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="initialization-eureka" options="-parameters" />
+      <module name="initialization-server" options="-parameters" />
+      <module name="initialization-zuu" options="-parameters" />
+      <module name="initialization-zuul" options="-parameters" />
+      <module name="server-common" options="-parameters" />
     </option>
   </component>
 </project>

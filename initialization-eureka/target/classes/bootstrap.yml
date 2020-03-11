@@ -1,43 +1,46 @@
-spring:
-  application:
-    name: homepage-eureka
-  profiles: server1
-server:
-  port: 8000
-eureka:
-  instance:
-    hostname: localhost
-    prefer-ip-address: false
-  client:
-    service-url:
-      defaultZone: http://localhost:8001/eureka/,http://localhost:8002/eureka/
-
----
-spring:
-  application:
-    name: homepage-eureka
-  profiles: server2
-server:
-  port: 8001
-eureka:
-  instance:
-    hostname: localhost
-    prefer-ip-address: false
-  client:
-    service-url:
-      defaultZone: http://localhost:8000/eureka/,http://localhost:8002/eureka/
-
----
-spring:
-  application:
-    name: homepage-eureka
-  profiles: server3
-server:
-  port: 8002
-eureka:
-  instance:
-    hostname: localhost
-    prefer-ip-address: false
-  client:
-    service-url:
-      defaultZone: http://localhost:8000/eureka/,http://localhost:8001/eureka/
+#
+## 多实例配置 打包命令  全部打包  mvn clean package -Dmaven.test.skip=true -U  清除缓存 并强制打包
+## 选择配置文件命令 java -jar initialization-eureka-1.0-SNAPSHOT.jar --spring.profiles.active=server2
+#spring:
+#  application:
+#    name: homepage-eureka
+#  profiles: server1
+#server:
+#  port: 8000
+#eureka:
+#  instance:
+#    hostname: localhost
+#    prefer-ip-address: false
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8001/eureka/,http://localhost:8002/eureka/
+#
+#---
+#spring:
+#  application:
+#    name: homepage-eureka
+#  profiles: server2
+#server:
+#  port: 8001
+#eureka:
+#  instance:
+#    hostname: localhost
+#    prefer-ip-address: false
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8000/eureka/,http://localhost:8002/eureka/
+#
+#---
+#spring:
+#  application:
+#    name: homepage-eureka
+#  profiles: server3
+#server:
+#  port: 8002
+#eureka:
+#  instance:
+#    hostname: localhost
+#    prefer-ip-address: false
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8000/eureka/,http://localhost:8001/eureka/

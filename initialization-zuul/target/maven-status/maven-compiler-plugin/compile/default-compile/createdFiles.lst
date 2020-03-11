@@ -1,0 +1,3 @@
+cn/tmpan/cloud/zuul/ZuulApplication.class
+cn/tmpan/cloud/zuul/filter/AccessLogFilter.class
+cn/tmpan/cloud/zuul/filter/PreRequestFilter.class

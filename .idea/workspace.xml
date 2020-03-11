@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6deea13-3b27-403a-bacb-22bef8f8a4b8" name="Default Changelist" comment="" />
+    <list default="true" id="b6deea13-3b27-403a-bacb-22bef8f8a4b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/initializatione-ureka/target/" />
@@ -21,6 +23,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,11 +92,12 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="559" />
-    <option name="y" value="62" />
+    <option name="x" value="78" />
+    <option name="y" value="40" />
     <option name="width" value="1440" />
     <option name="height" value="825" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -109,7 +115,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583918542875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583919064799" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -166,15 +172,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583907126340</updated>
-      <workItem from="1583907130633" duration="5503000" />
+      <workItem from="1583907130633" duration="5762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5503000" />
+    <option name="totallyTimeSpent" value="5762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />

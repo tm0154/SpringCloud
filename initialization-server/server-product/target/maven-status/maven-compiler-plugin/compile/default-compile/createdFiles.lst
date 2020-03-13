@@ -1,0 +1,7 @@
+server/product/client/hystrix/UserClientHystrix.class
+server/product/controller/ProductController.class
+server/product/client/UserClient.class
+server/product/dao/ProductMapper.class
+server/product/aop/WebLogAspect.class
+server/product/ProductServerApplication.class
+server/product/model/Product.class

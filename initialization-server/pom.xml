@@ -20,6 +20,8 @@
     <description>initialization-frame-SpringCloud-server</description>
     <modules>
         <module>server-common</module>
+        <module>server-user</module>
+        <module>server-product</module>
     </modules>
 
 </project>

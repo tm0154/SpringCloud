@@ -1,1 +1,8 @@
 server/commom/utils/JsonUtil.class
+server/commom/dto/Product.class
+server/commom/dto/User.class
+server/commom/utils/PropertiesUtil.class
+server/commom/utils/QRCodeUtil.class
+server/commom/utils/Md5Util.class
+server/commom/utils/ImagesUtil.class
+server/commom/utils/BigDecimalUtil.class

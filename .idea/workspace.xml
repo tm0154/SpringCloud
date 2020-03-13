@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6deea13-3b27-403a-bacb-22bef8f8a4b8" name="Default Changelist" comment="" />
+    <list default="true" id="b6deea13-3b27-403a-bacb-22bef8f8a4b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/dto/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/dto/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/BigDecimalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/ImagesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/Md5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/QRCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/ProductServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/aop/WebLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/client/hystrix/UserClientHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/dao/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/log/logback-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/log/logback-pro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/UserServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/aop/WebLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/client/ProductClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/client/hystrix/ProductClientHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/log/logback-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/log/logback-pro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-eureka/target/initialization-eureka-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-eureka/target/initialization-eureka-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-eureka/target/initialization-eureka-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-eureka/target/initialization-eureka-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-server/server-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-server/server-common/target/classes/server/commom/utils/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-common/target/classes/server/commom/utils/JsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-server/server-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-server/server-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-server/server-common/target/server-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-common/target/server-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-zuul/target/initialization-zuul-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-zuul/target/initialization-zuul-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-zuul/target/initialization-zuul-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-zuul/target/initialization-zuul-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialization-zuul/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/initializatione-ureka/target/" />
@@ -10,6 +61,8 @@
     <ignored path="$PROJECT_DIR$/initialization-zuul/target/" />
     <ignored path="$PROJECT_DIR$/initialization-server/target/" />
     <ignored path="$PROJECT_DIR$/initialization-server/server-common/target/" />
+    <ignored path="$PROJECT_DIR$/initialization-server/server-user/target/" />
+    <ignored path="$PROJECT_DIR$/initialization-server/server-product/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +70,125 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/client/ProductClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/client/UserClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="63" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/client/hystrix/ProductClientHystrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="43" column="49" lean-forward="true" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="53" column="34" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="39" selection-start-line="39" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/UserServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initialization-server/server-product/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="136" column="21" selection-start-line="126" selection-end-line="136" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initialization-server/server-user/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,8 +212,42 @@
         <option value="$PROJECT_DIR$/initialization-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/initialization-server/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/log/logback-pro.xml" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/model/User.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/LocalTimeUtil.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/Md5Util.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/QRCodeUtil.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/ImagesUtil.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/BigDecimalUtil.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/log/logback-dev.xml" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/aop/WebLogAspect.java" />
         <option value="$PROJECT_DIR$/initialization-server/server-common/pom.xml" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/dao/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/model/Product.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/mapper/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/ProductApplictaion.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/pom.xml" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/dto/User.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/dto/Product.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/client/UserClient.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/ProductServerApplication.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/client/hystrix/UserClientHystrix.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/pom.xml" />
+        <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/client/hystrix/ProductClientHystrix.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/UserServerApplication.java" />
+        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/client/ProductClient.java" />
       </list>
     </option>
   </component>
@@ -117,9 +318,263 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="webApps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,7 +584,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583922454150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584074045149" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -142,12 +597,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="server.commom.dto" />
       <recent name="cn.tmpan.cloud.zuul.filter" />
       <recent name="eureka" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product" />
+      <recent name="$PROJECT_DIR$/initialization-server/server-product/src/main/resources" />
+      <recent name="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils" />
+      <recent name="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/aop" />
       <recent name="$PROJECT_DIR$/initialization-zuul/src/main/resources" />
-      <recent name="$PROJECT_DIR$/initialization-eureka/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -162,7 +621,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+  <component name="RunManager" selected="Spring Boot.UserServerApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="initialization-eureka" />
       <extension name="coverage">
@@ -172,6 +631,32 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tmpan.cloud.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="server.product.ProductServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="server.user.UserServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,8 +676,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ZuulApplication" />
+        <item itemvalue="Spring Boot.UserServerApplication" />
+        <item itemvalue="Spring Boot.ProductServerApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.ZuulApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -207,17 +694,21 @@
       <option name="presentableId" value="Default" />
       <updated>1583907126340</updated>
       <workItem from="1583907130633" duration="6479000" />
-      <workItem from="1583920184777" duration="1856000" />
+      <workItem from="1583920184777" duration="2285000" />
+      <workItem from="1583974716776" duration="103000" />
+      <workItem from="1584011733618" duration="27000" />
+      <workItem from="1584064037266" duration="9519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8335000" />
+    <option name="totallyTimeSpent" value="18413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -227,21 +718,21 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5036145" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32771084" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="JProfiler" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32891566" />
       <window_info anchor="bottom" id="MyBatis Log" order="17" />
       <window_info anchor="bottom" id="Messages" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -260,22 +751,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/initialization-eureka/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/initialization-zuul/src/main/java/eureka/ZuulApplication.java" />
-    <entry file="file://$PROJECT_DIR$/initialization-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/initialization-zuul/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -283,23 +759,6 @@
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/initialization-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/initialization-eureka/src/main/java/cn/tmpan/cloud/eureka/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/initialization-zuul/src/main/java/cn/tmpan/cloud/zuul/filter/PreRequestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -333,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.0.RELEASE/spring-cloud-commons-2.1.0.RELEASE.jar!/org/springframework/cloud/client/SpringCloudApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/initialization-zuul/src/main/java/cn/tmpan/cloud/zuul/ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -359,29 +811,349 @@
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/initialization-server/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/JsonUtil.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.0.RELEASE/spring-cloud-commons-2.1.0.RELEASE.jar!/org/springframework/cloud/client/SpringCloudApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/resources/log/logback-pro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-eureka/src/main/java/cn/tmpan/cloud/eureka/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="162" column="31" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/LocalTimeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="95" column="29" lean-forward="true" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/Md5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-614" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/PropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-410">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/QRCodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/ImagesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/BigDecimalUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/resources/log/logback-dev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/aop/WebLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/webApps/sys-run.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="121" column="38" selection-start-line="114" selection-start-column="37" selection-end-line="121" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-eureka/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/resources/log/logback-dev.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/aop/WebLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/dao/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/resources/mapper/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/dto/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/dto/Product.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/ProductServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/client/hystrix/UserClientHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="136" column="21" selection-start-line="126" selection-end-line="136" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/client/hystrix/ProductClientHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/client/UserClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="39" selection-start-line="39" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/UserServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="43" column="49" lean-forward="true" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/client/ProductClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

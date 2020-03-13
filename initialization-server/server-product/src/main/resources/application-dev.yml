@@ -1,0 +1,51 @@
+server:
+  port: 9200
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource  # 使用druid数据源（连接池）
+    url:  jdbc:mysql://127.0.0.1:3306/testDatabase?characterEncoding=UTF-8&useSSL=false&serverTimezone=CTT  # 数据源配置
+    driver-class-name:  com.mysql.cj.jdbc.Driver  #新版本数据库驱动 8.0Ò
+    druid:
+      # 初始化大小，最小，最大
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 6000  # 配置获取连接等待超时的时间
+      time-between-eviction-runs-millis: 6000  # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      test-on-return: true
+      test-on-borrow: true
+      test-while-idle: true
+      validation-query: SELECT 1
+      min-evictable-idle-time-millis: 30000  # 配置一个连接在池中最小生存的时间，单位是毫秒
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      username: tmpan   #数据库账户
+      password: tmpan   #数据库密码
+
+      #filters: stat,wall,log4j
+      stat-view-servlet:
+        reset-enable: true #是否启用StatViewServlet默认值true
+        login-username:  #数据库监控账户
+        login-password:  #数据库监控密码
+        enabled: true   #关闭web页面统计
+      # 通过connectProperties属性来打开mergeSql功能；
+      filter:
+        stat:
+          merge-sql: true #打开慢SQL记录
+          slow-sql-millis: 5000
+          enabled: true
+        wall:   #防止SQL注入日志统计
+          enabled: true #开启过滤
+
+      web-stat-filter:
+        enabled: false  #关闭session监控
+        session-stat-enable: false
+      connection-init-sqls: ["set names utf8mb4;"] #支持表情
+
+swagger:
+  enabled: true #开启接口文档
+
+
+#日志管理
+logging:
+  config: classpath:log/logback-dev.xml

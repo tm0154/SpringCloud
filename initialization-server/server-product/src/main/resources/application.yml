@@ -1,0 +1,42 @@
+server:
+  port: 9200
+#分页配置器
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+#springMVC视图配置器
+spring:
+  profiles:
+    active: dev
+  jmx:
+    enabled: false #关闭资源管理器
+    default-domain: server-product #工程名字
+  application:
+    name: server-product # 服务名称
+# 时间格式化处理
+  jackson:
+    time-zone: CTT
+    date-format: yyyy-MM-dd HH:mm:ss
+  servlet:
+    multipart:
+      max-file-size: 30MB #文件上传最大大小
+      max-request-size: 30MB #最大请求限制
+#mybatis-plus配置器
+mybatis-plus:
+  global-config:
+    sql-parser-cache: false # sql缓存
+  mapper-locations:  classpath*:/mapper/*.xml #Mapper.xml sql文件地址
+  type-aliases-package: server.user.model  #entity实体类扫描地址
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰命名转换 如: user_access  ---> userAccess
+    call-setters-on-nulls: true # 返回HASHMAP值为空依然渲染字段
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+
+feign:
+  hystrix:
+    enabled: true

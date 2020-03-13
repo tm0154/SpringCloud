@@ -9,6 +9,8 @@
         <module name="initialization-eureka" />
         <module name="initialization-zuul" />
         <module name="server-common" />
+        <module name="server-product" />
+        <module name="server-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +24,8 @@
       <module name="initialization-zuu" options="-parameters" />
       <module name="initialization-zuul" options="-parameters" />
       <module name="server-common" options="-parameters" />
+      <module name="server-product" options="-parameters" />
+      <module name="server-user" options="-parameters" />
     </option>
   </component>
 </project>

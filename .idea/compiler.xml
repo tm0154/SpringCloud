@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="initialization-eureka" />
+        <module name="initialization-gateway" />
         <module name="initialization-zuul" />
         <module name="server-common" />
         <module name="server-product" />
@@ -20,6 +21,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="initialization-eureka" options="-parameters" />
+      <module name="initialization-gateway" options="-parameters" />
       <module name="initialization-server" options="-parameters" />
       <module name="initialization-zuu" options="-parameters" />
       <module name="initialization-zuul" options="-parameters" />

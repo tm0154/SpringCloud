@@ -1,0 +1,16 @@
+server:
+  port: 9300
+
+spring:
+  application:
+    name: initialization-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8000/eureka/

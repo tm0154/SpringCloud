@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6deea13-3b27-403a-bacb-22bef8f8a4b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/DataSourceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/service/IBuyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/service/impl/BuyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/file.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/registry.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/DataSourceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/service/IBuyServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/service/impl/BuyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/file.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/registry.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/ProductServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/ProductServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/client/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/client/hystrix/UserClientHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/client/hystrix/UserClientHystrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-product/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-product/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-product/target/classes/server/product/ProductServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-product/target/classes/server/product/ProductServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-product/target/classes/server/product/client/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-product/target/classes/server/product/client/UserClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-product/target/classes/server/product/client/hystrix/UserClientHystrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-product/target/classes/server/product/client/hystrix/UserClientHystrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-product/target/classes/server/product/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-product/target/classes/server/product/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/UserServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/UserServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-user/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-user/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/target/classes/server/user/UserServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-user/target/classes/server/user/UserServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/target/classes/server/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/initialization-server/server-user/target/classes/server/user/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/target/server-user-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/target/server-user-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initialization-server/server-user/target/test-classes/META-INF/server-user.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,7 +25,17 @@
     <favorites_list name="initialization-frame-spring-cloud" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/JsonUtil.java" />
         <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/LocalTimeUtil.java" />
         <option value="$PROJECT_DIR$/initialization-server/server-common/src/main/java/server/commom/utils/Md5Util.java" />
@@ -129,6 +101,7 @@
         <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/ProductServerApplication.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -152,17 +125,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="server-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="server-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -183,47 +146,13 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="initialization-eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="initialization-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="initialization-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="initialization-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initialization-frame-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="initialization-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="initialization-frame-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -354,7 +283,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,6 +452,7 @@
       <workItem from="1584152017973" duration="1738000" />
       <workItem from="1584347227434" duration="5545000" />
       <workItem from="1584353742290" duration="5139000" />
+      <workItem from="1584796536816" duration="162000" />
     </task>
     <servers />
   </component>
@@ -560,12 +489,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33517000" />
+    <option name="totallyTimeSpent" value="33679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.27110156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.27110156" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -582,7 +512,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.32771084" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32771084" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
@@ -608,9 +538,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/initialization-server/server-product/src/main/java/server/product/aop/WebLogAspect.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/java/server/user/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -841,25 +768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="24" selection-start-line="24" selection-start-column="1" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/initialization-server/server-product/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="142" column="2" selection-start-line="142" selection-start-column="2" selection-end-line="152" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="151" selection-start-line="151" selection-end-line="155" selection-end-column="21" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -983,6 +895,28 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="151" selection-start-line="151" selection-end-line="155" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initialization-server/server-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="24" selection-start-line="24" selection-start-column="1" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import server.commom.dto.Product;
 import server.user.client.ProductClient;
 import server.user.model.User;
+import server.user.service.IBuyServices;
 
 import java.util.List;
 
@@ -17,6 +18,9 @@ import java.util.List;
 @RestController
 public class UserController {
 
+
+    @Autowired
+    private IBuyServices iBuyServices;
 
     @Autowired
     private ProductClient productClient;
@@ -47,6 +51,7 @@ public class UserController {
 
     /**
      * 获取微服务调用
+     *
      * @param id
      * @return
      */
@@ -55,4 +60,15 @@ public class UserController {
         return productClient.getProductById(id);
     }
 
+    /**
+     * 测试分布式事物
+     *
+     * @param userId
+     * @param name
+     * @return
+     */
+    @PostMapping(value = "accessAdd")
+    public boolean accessAdd(Integer userId, String name) {
+        return iBuyServices.accessAdd(userId, name);
+    }
 }

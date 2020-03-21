@@ -1,5 +1,5 @@
 server:
-  port: 9100
+  port: 9201
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource  # 使用druid数据源（连接池）

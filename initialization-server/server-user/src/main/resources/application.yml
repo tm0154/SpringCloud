@@ -22,6 +22,10 @@ spring:
     multipart:
       max-file-size: 30MB #文件上传最大大小
       max-request-size: 30MB #最大请求限制
+#  cloud:
+#    alibaba:
+#      seata:
+#        tx-service-group: fsp_tx_group
 #mybatis-plus配置器
 mybatis-plus:
   global-config:

@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import server.commom.dto.User;
 import server.product.client.UserClient;
 import server.product.model.Product;
+import server.product.service.IBuyService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +21,9 @@ public class ProductController {
 
     @Autowired
     private UserClient userClient;
+
+    @Autowired
+    private IBuyService iBuyService;
 
     /**
      * 获取产品信息
@@ -58,5 +62,18 @@ public class ProductController {
             productList.add(new Product(i, "产品名称-" + name + "-" + i));
         }
         return productList;
+    }
+
+    /**
+     * 测试分布式事物
+     *
+     * @param id
+     * @param name
+     * @return
+     */
+    @PostMapping(value = "add")
+    public String add(Integer id, String name) {
+        iBuyService.add(id, name);
+        return "success";
     }
 }

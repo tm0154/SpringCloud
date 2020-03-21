@@ -1,7 +1,0 @@
-server/user/controller/UserController.class
-server/user/client/ProductClient.class
-server/user/aop/WebLogAspect.class
-server/user/client/hystrix/ProductClientHystrix.class
-server/user/model/User.class
-server/user/UserServerApplication.class
-server/user/dao/UserMapper.class

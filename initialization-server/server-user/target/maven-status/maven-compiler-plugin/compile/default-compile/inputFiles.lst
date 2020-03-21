@@ -1,7 +1,0 @@
-/Users/pantiemin/Downloads/workPath/idea/initialization-frame-spring-cloud/initialization-server/server-user/src/main/java/server/user/model/User.java
-/Users/pantiemin/Downloads/workPath/idea/initialization-frame-spring-cloud/initialization-server/server-user/src/main/java/server/user/client/ProductClient.java
-/Users/pantiemin/Downloads/workPath/idea/initialization-frame-spring-cloud/initialization-server/server-user/src/main/java/server/user/UserServerApplication.java
-/Users/pantiemin/Downloads/workPath/idea/initialization-frame-spring-cloud/initialization-server/server-user/src/main/java/server/user/dao/UserMapper.java
-/Users/pantiemin/Downloads/workPath/idea/initialization-frame-spring-cloud/initialization-server/server-user/src/main/java/server/user/aop/WebLogAspect.java
-/Users/pantiemin/Downloads/workPath/idea/initialization-frame-spring-cloud/initialization-server/server-user/src/main/java/server/user/controller/UserController.java
-/Users/pantiemin/Downloads/workPath/idea/initialization-frame-spring-cloud/initialization-server/server-user/src/main/java/server/user/client/hystrix/ProductClientHystrix.java
